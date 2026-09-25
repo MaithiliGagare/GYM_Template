@@ -1,0 +1,871 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+
+    overflow-x: hidden; 
+   
+} 
+
+
+
+/* Main header with background image */
+.head { 
+    background-image: url(../images/background/nav_img.jpg); 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width: 100vw; 
+    background-size: 100% 100%; 
+} 
+
+
+
+
+/* Navigation bar */
+.navi { 
+    width: 100vw; 
+    background-color: black; 
+    display: flex; 
+    color: white; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    justify-content: space-between; 
+    position: fixed; 
+    top: 0px; 
+
+    /* Orange outline around navigation */
+    outline: 2px solid orange; 
+} 
+
+
+/* Changes the color of all span elements */
+span { 
+    color: green; 
+} 
+
+
+/* Navigation links are hidden on mobile */
+.div1 { 
+    display: none; 
+} 
+
+
+/* Get in touch button is hidden on mobile */
+.div2 button { 
+    display: none; 
+} 
+
+
+/* Search icon and button container */
+.div2 { 
+    display: flex; 
+    gap: 20px; 
+} 
+
+
+/* Adds top spacing to search icon */
+.img1 { 
+    padding-top: 12px; 
+} 
+
+
+/* Mobile menu icon is displayed */
+.img2 { 
+    display: block; 
+} 
+
+
+/* Navigation link styling */
+a { 
+    text-decoration: none; 
+    color: white; 
+} 
+
+
+/* Active navigation link */
+.navi1 { 
+    color: orange; 
+} 
+
+
+/* Logo heading color */
+.navi h1 { 
+    color: orange; 
+} 
+
+
+/* Paragraph direction */
+.para1 { 
+    flex-direction: column; 
+} 
+
+
+
+
+/* Main hero text */
+.text { 
+    color: white; 
+    padding-top: 200px; 
+    padding-left: 50px; 
+    font-size: 40px; 
+} 
+
+
+/* Hero Get Started button */
+.text button { 
+    height: 40px; 
+    width: 130px; 
+    color: white; 
+    background-color: orange; 
+    padding-top: 5px; 
+} 
+
+
+/* DONE text is orange */
+.text h2 span { 
+    color: orange; 
+} 
+
+
+
+
+/* Features container */
+.parent { 
+    width: 100%; 
+    background-color: rgb(29, 31, 42); 
+    display: flex; 
+
+    /* Features are displayed vertically on mobile */
+    flex-direction: column; 
+
+    align-items: center; 
+    justify-content: space-evenly; 
+    color: white; 
+    padding-top: 50px; 
+    padding-bottom: 40px; 
+    gap: 40px; 
+} 
+
+
+/* Feature paragraph color */
+.parent p { 
+    color: gray; 
+} 
+
+
+/* Space above feature heading */
+.parent h2 { 
+    padding-top: 30px; 
+} 
+
+
+/* Individual feature */
+.child { 
+    text-align: center; 
+    width: 100%; 
+} 
+
+
+
+
+/* Subscription section */
+.parent2 { 
+    width: 100%; 
+    display: flex; 
+
+    /* Content is vertical on mobile */
+    flex-direction: column; 
+} 
+
+
+/* Subscription text area */
+.child1 { 
+    width: 100%; 
+    padding: 30px; 
+    box-sizing: border-box; 
+} 
+
+
+/* Subscription image area */
+.child2 { 
+    width: 100%; 
+} 
+
+
+/* Section styling */
+.child2 section { 
+    padding-top: 50px; 
+    display: flex; 
+    gap: 10px; 
+} 
+
+
+/* Subscription Get Started button */
+.child1 button { 
+    height: 40px; 
+    width: 130px; 
+    color: white; 
+    background-color: orange; 
+    padding-top: 10px; 
+} 
+
+
+/* Subscription heading */
+.child1 h2 { 
+    font-size: 50px; 
+} 
+
+
+/* Subscription benefits spacing */
+.sec1 { 
+    padding-top: 50px; 
+} 
+
+
+/* Checkmark image styling */
+.sec img { 
+    border: 2px solid orange; 
+    border-radius: 100%; 
+} 
+
+
+/* Benefit item layout */
+.sec { 
+    display: flex; 
+    gap: 30px; 
+} 
+
+
+
+
+/* Gallery container */
+.parent3 { 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgb(29, 31, 42); 
+    display: flex; 
+    justify-content: space-around; 
+    padding-top: 30px; 
+
+    /* Allows images to move to the next row */
+    flex-wrap: wrap; 
+
+    height: 100%; 
+} 
+
+
+/* Third image hidden initially */
+.img3 { 
+    display: none; 
+} 
+
+
+/* Fourth image hidden initially */
+.img4 { 
+    display: none; 
+} 
+
+
+
+
+/* Testimonial container */
+.parent4 { 
+    width: 100%; 
+    text-align: center; 
+    padding-bottom: 30px; 
+    padding-top: 20px; 
+} 
+
+
+/* Testimonial heading */
+.hed1 { 
+    font-size: 60px; 
+} 
+
+
+/* Makes testimonial image circular */
+.parent4 img { 
+    border-radius: 100%; 
+} 
+
+
+/* Orange paragraph */
+.par1 { 
+    color: orange; 
+} 
+
+
+
+
+/* Choose a plan heading section */
+.heding { 
+    width: 100%; 
+    height: 100px; 
+    background-color: black; 
+    color: white; 
+    text-align: center; 
+    padding-top: 30px; 
+    font-size: 40px; 
+    overflow-y: hidden;
+} 
+
+
+
+
+/* Plans container */
+.parent5 { 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgb(29, 31, 42); 
+
+    /* Background gradient and image */
+    background: linear-gradient(to top, black, rgba(8, 0, 0, 0.7)), url(../images/background/imgi_1_plans.png); 
+
+    display: flex; 
+
+    /* Plans are vertical on mobile */
+    flex-direction: column; 
+
+    align-items: center; 
+    justify-content: space-around; 
+    padding-bottom: 100px; 
+    gap: 20px; 
+} 
+
+
+/* Plan heading color */
+.parent5 h2 { 
+    color: white; 
+} 
+
+
+
+
+.box1 { 
+    height: 100%; 
+    width: 300px; 
+    background-color: white; 
+    border: 10px solid #ff5408; 
+     color:grey;
+    margin-top: 50px; 
+    text-align: center; 
+    padding-top: 50px; 
+    padding-bottom: 60px; 
+} 
+
+.box1 h3{
+    color: black;
+}
+
+
+/* Free plan price */
+.par1 p { 
+    color: orange; 
+    font-size: 80px; 
+} 
+
+
+
+
+.box2 { 
+    height: 100%; 
+    width: 300px; 
+    color:grey;
+    background-color: rgb(7, 6, 6); 
+    border: 10px solid #ff5408; 
+    margin-top: 50px; 
+    text-align: center; 
+    padding-top: 7px; 
+    padding-bottom: 60px; 
+} 
+
+.box2 h3{
+    color: white;
+}
+
+
+
+/* Basic plan price */
+.par2 p { 
+    color: orange; 
+    font-size: 80px; 
+} 
+
+
+
+
+.box3 { 
+    height: 100%; 
+    width: 300px; 
+    background-color: white; 
+     color:grey;
+    border: 10px solid #ff5408; 
+    margin-top: 50px; 
+    text-align: center; 
+    padding-top: 50px; 
+    padding-bottom: 60px; 
+} 
+
+.box3 h3{
+    color: black;
+}
+
+
+
+/* Unlimited plan price */
+.par3 p { 
+    color: orange; 
+    font-size: 80px; 
+} 
+
+
+/* Buttons inside plans */
+.parent5 button { 
+    height: 40px; 
+    width: 130px; 
+    color: white; 
+    background-color: orange; 
+    padding-top: 5px; 
+} 
+
+
+
+
+/* Subscription call-to-action section */
+.parent6 { 
+    width: 100vw; 
+    height: 100px; 
+    background-color: orange; 
+    text-align: center; 
+    padding-top: 50px; 
+    color: white; 
+} 
+
+
+/* Subscription text styling */
+.parent6 span { 
+    color: black; 
+    text-decoration: underline orangered; 
+} 
+
+
+/* FOOTER  */
+
+/* Main footer container */
+.footer { 
+    width: 100vw; 
+    background-color: black; 
+    color: white; 
+    display: flex; 
+
+    /* Footer columns are vertical on mobile */
+    flex-direction: column; 
+
+    align-items: center; 
+    justify-content: center; 
+
+    padding-top: 100px; 
+    padding-bottom: 50px; 
+    gap: 100px; 
+} 
+
+
+/* Main footer information */
+.tab1 { 
+    height: 100%; 
+    width: 90%; 
+} 
+
+
+/* Footer logo */
+.tab1 h1 { 
+    color: orange; 
+} 
+
+
+/* Social media icons container */
+.logo { 
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 20px; 
+} 
+
+
+/* Footer author name */
+.par2 span { 
+    color: rgb(104, 104, 241); 
+} 
+
+
+/* Useful links column */
+.tab2 { 
+    height: 100%; 
+    width: 300px; 
+} 
+
+
+/* Features column */
+.tab3 { 
+    height: 100%; 
+    width: 300px; 
+} 
+
+
+/* About us column */
+.tab4 { 
+    height: 100%; 
+    width: 300px; 
+} 
+
+
+/* Footer list item color */
+li { 
+    color: grey; 
+} 
+
+
+/* Footer paragraph color */
+.tab1 p { 
+    color: grey; 
+} 
+
+
+/* Italic text color */
+i { 
+    color: white; 
+} 
+
+
+/* Copyright paragraph spacing */
+.par2 { 
+    padding-top: 50px; 
+} 
+
+
+/* Button hover effect */
+button:hover { 
+    background-color: #ff5408; 
+} 
+
+
+/*  TABLET VIEW  */
+
+@media (min-width: 768px) { 
+
+
+    /* Navigation links remain hidden on tablet */
+    .div1 { 
+        display: none; 
+    } 
+
+
+    /* Get in touch button appears on tablet */
+    .div2 button { 
+        height: 50px; 
+        width: 120px; 
+        display: flex; 
+        justify-content: center; 
+        padding-top: 10px; 
+        color: white; 
+        background-color: orange; 
+        font-size: 16px; 
+    } 
+    
+
+    /* Menu icon remains visible on tablet */
+    .img2 { 
+        display: block; 
+    } 
+
+
+    /* Navigation spacing */
+    .navi { 
+        justify-content: space-between; 
+    } 
+
+
+    /* Header background positioning */
+    .head { 
+        background-position: center; 
+    } 
+
+
+    /* Features remain vertical on tablet */
+    .parent { 
+        flex-direction: column; 
+    } 
+
+
+    /* Feature takes full width */
+    .child { 
+        width: 100%; 
+    } 
+
+
+    /* Subscription section remains vertical */
+    .parent2 { 
+        flex-direction: column; 
+    } 
+
+
+    /* Subscription text takes full width */
+    .child1 { 
+        width: 100%; 
+    } 
+
+
+    /* Subscription image takes full width */
+    .child2 { 
+        width: 100%; 
+    } 
+
+
+    /* Larger subscription heading on tablet */
+    .child1 h2 { 
+        font-size: 70px; 
+    } 
+
+
+    /* Checkmark image height */
+    .sec img { 
+        height: 100%; 
+    } 
+
+
+    /* Gallery images wrap */
+    .parent3 { 
+        flex-wrap: wrap; 
+    } 
+
+
+    /* Second gallery image becomes visible */
+    .img3 { 
+        display: block; 
+    } 
+
+
+    /* Fourth image remains hidden */
+    .img4 { 
+        display: none; 
+    } 
+
+
+    /* Testimonial spacing */
+    .parent4 { 
+        padding-bottom: 30px; 
+    } 
+
+
+    /* Larger testimonial heading */
+    .hed1 { 
+        font-size: 80px; 
+    } 
+
+
+    /* Plans remain vertical on tablet */
+    .parent5 { 
+        flex-direction: column; 
+        align-items: center; 
+    } 
+
+
+    /* Larger call-to-action section */
+    .parent6 { 
+        font-size: 50px; 
+        width: 100vw; 
+        height: 200px; 
+    } 
+
+
+    /* Footer remains vertical on tablet */
+    .footer { 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
+        gap: 100px; 
+    } 
+
+} 
+
+
+
+/*  DESKTOP VIEW  */
+
+
+@media (min-width: 992px) { 
+
+
+    /* Navigation links become visible on desktop */
+    .div1 { 
+        display: flex; 
+        padding: 3px; 
+        gap: 30px; 
+        text-align: center; 
+        padding-top: 10px; 
+    } 
+
+
+    /* Get in touch button displayed on desktop */
+    .div2 button { 
+        height: 50px; 
+        width: 120px; 
+        display: block; 
+        background-color: orange; 
+        color: white; 
+        font-size: 16px; 
+    } 
+
+
+    /* Mobile menu icon hidden on desktop */
+    .img2 { 
+        display: none; 
+    } 
+
+
+    /* Navigation spacing */
+    .navi { 
+        justify-content: space-between; 
+    } 
+
+
+    /* Features displayed horizontally */
+    .parent { 
+        flex-direction: row; 
+    } 
+
+
+    /* Feature width */
+    .child { 
+        width: 100%; 
+    } 
+
+
+    /* Subscription section displayed side by side */
+    .parent2 { 
+        flex-direction: row; 
+    } 
+
+
+    /* Subscription text occupies half width */
+    .child1 { 
+        width: 50%; 
+    } 
+
+
+    /* Subscription heading size */
+    .child1 h2 { 
+        font-size: 70px; 
+    } 
+
+
+    /* Subscription image occupies half width */
+    .child2 { 
+        width: 50%; 
+    } 
+     
+
+    /* Checkmark image height */
+    .sec img { 
+        height: 100%; 
+    } 
+
+
+    /* Gallery layout */
+    .parent3 { 
+        flex-wrap: wrap; 
+        height: 50vh; 
+    } 
+
+
+    /* Second gallery image visible */
+    .img3 { 
+        display: block; 
+    } 
+
+
+    /* Third and fourth gallery images visible */
+    .img4 { 
+        display: block; 
+    } 
+
+
+    /* Testimonial spacing */
+    .parent4 { 
+        padding-bottom: 30px; 
+       
+    } 
+   
+
+
+    /* Testimonial heading size */
+    .hed1 { 
+        font-size: 80px; 
+    } 
+
+
+    /* Plans displayed horizontally */
+    .parent5 { 
+        flex-direction: row; 
+        justify-content: space-around; 
+    } 
+
+
+    /* Free plan positioning */
+    .box1 { 
+        margin-top: 200px; 
+    } 
+
+
+    /* Basic plan positioning */
+    .box2 { 
+        margin-top: 200px; 
+    } 
+
+
+    /* Unlimited plan positioning */
+    .box3 { 
+        margin-top: 200px; 
+    } 
+
+
+    /* Larger call-to-action section */
+    .parent6 { 
+        font-size: 50px; 
+        width: 100vw; 
+        height: 200px; 
+    } 
+
+
+    /* Footer columns displayed horizontally */
+    .footer { 
+        flex-direction: row; 
+        justify-content: space-evenly; 
+        gap: 0; 
+        text-align: left; 
+    } 
+
+
+    /* Main footer section width */
+    .tab1 { 
+        width: 50vh; 
+    } 
+
+
+    /* Useful Links width */
+    .tab2 { 
+        width: 300px; 
+    } 
+
+
+    /* Features width */
+    .tab3 { 
+        width: 300px; 
+    } 
+
+
+    /* About Us width */
+    .tab4 { 
+        width: 300px; 
+    } 
+
+}
